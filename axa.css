@@ -288,6 +288,7 @@
         .firstdiv img,.seconddiv img{
           width:140px;
           height: 200px;
+          background-color:darkblue;
         }
        
         .section{
