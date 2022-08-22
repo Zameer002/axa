@@ -4,7 +4,7 @@ pipeline{
         stages{
 
 
-              stage('Quality Gate Statuc Check'){
+              stage('Quality Gate Statuc Check1'){
 
 		      steps{
 			      echo "Hello"
