@@ -12,7 +12,14 @@ stages{
            
         }
     }
-    
+     stage('buildd')
+    {
+        steps {
+            
+        echo "Hello"
+           
+        }
+    }
 
     }
 
