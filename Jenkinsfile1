@@ -1,18 +1,28 @@
-pipeline
-{
-agent none
+pipeline{
+        agent any  
+       
+        stages{
 
-stages{
 
-    stage('build1111')
-    {
-        steps {
-            
-        echo "Hello"
-           
-        }
-    }
+              stage('Quality Gate Statuc Check'){
 
-    }
+		      steps{
+			      echo "Hello"
+		      }
+		
+               }
+		
+		  stage('Quality Gate Statuc Check one11'){
 
+		      steps{
+			      echo "Hello"
+		      }
+		
+               }
+	       
+	       
+	}       
+	       
+	      
+    
 }
